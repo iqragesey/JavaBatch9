@@ -1,0 +1,8 @@
+Overriding: when we have the same methods in parent and child classes
+RULES:
+-there should a parent/child relationship (inheritance) between the classes
+-the return type, name and parameters of the method should be the same
+-we cannot override private methods because they don't participate in inheritance
+-we cannot decrease the visibility of a method being overwritten but we can increase
+-when it comes to static methods, we say we are redeclaring the method instead of overriding it
+-

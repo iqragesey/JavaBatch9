@@ -1,0 +1,35 @@
+Method Overloading: a mechanism through which we can define same method
+multiple times in the same class but w different signatures (name of method and
+its parameters) to a cleaner code
+
+compiler: checks for syntax errors semantic
+but not for runtime errors or logical errors
+Java source code is converted to byte code.
+JVM converts the byte code to machine code
+
+to overload a method/constructor, we must have the same name but different number
+of parameters or different type of parameters or different sequence of parameters.
+we can overload private & static methods, constructor, main method.
+we cannot overload a method by changing the return type.
+we overload methods in the same class.
+we can not overload by just changing the parameter names
+
+
+OVERRIDING:
+overriding is a mechanism in java through which parent and child classes can
+have the same methods if child class does not like the implementation from the parent
+class, child class can provide its own implementation and depending upon the
+object type, proper method will be called
+
+overriding rules:
+we can not override private constructors bc they do not participate
+
+cannot override constructor because it does not participate with inheritance
+Override is very strict: things must be the name (name, method, return type)
+
+
+decision of which class will rule is taken at run time for overriding.
+at compile time, it will go to parent but when it runs, it shows child method
+
+runtime - overriding
+compile time - overloading

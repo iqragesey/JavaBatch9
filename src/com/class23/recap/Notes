@@ -1,0 +1,55 @@
+Recap from previous classes:
+
+Overloading: a mechanism in java that allows us to have methods with the same name but with different numbers of
+parameters, different type of parameters or with different sequence of parameters
+
+example:
+void hello(){ - no arguments, number of parameters is 0
+
+}
+void hello(String name){  - adding an argument. now the number of parameters is 1
+---
+}
+
+void hello(char[] name){  - data type of parameter is changed
+
+}
+---
+void hello(char[] name, String address){
+
+}
+
+void hello(String address, char[] name){  - switched the sequence of parameters.
+
+}
+RULES:
+ -we can overload methods in the same class. no parent/child relationship
+ -name of the method is the same
+ -we cannot overload a method by just changing the return type. must be the same return type
+ -if we have an overloaded method, java will perform auto widening to call a method but not narrowing
+ ex: if method starts with double but we pass an int, java will do it automatically. but if we have method that
+ takes int, we cannot pass a double
+
+if we are not sure about the number of arguments, we can ues var args to pass any number of parameters to
+a method
+ex:
+add(int ...numbers){ syntax: method(data type ... name of variable)
+
+to print:
+for(int number:numbers){
+Sysoprint(number)
+}
+}
+
+Access modifiers do not effect the method overloading in the same class.
+Non-access modifiers do not effect method overloading either (static or not)
+if you change the name of the parameter, it will not overload
+you can overload with a main method
+
+
+INTERVIEW QUESTIONS:
+Can we overload main method? YES WE CAN IF WE FOLLOW THE OVERLOADING RULES
+Can we overload the Static methods? YES IF WE FOLLOW THE OVERLOADING RULES
+
+
+

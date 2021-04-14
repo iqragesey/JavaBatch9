@@ -1,0 +1,11 @@
+Overriding: When the same method with the same return type and same signature (name, parameters)exists in two classes
+which have an inheritance relationship (parent/child)
+
+We cannot override a static method BUT we can "hide" it by redeclaring it which is just
+renaming the method
+
+main method cannot be overridden but can be overloaded. because it's static, we use the term/concept of hiding
+
+
+
+

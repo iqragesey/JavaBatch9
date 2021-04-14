@@ -1,0 +1,13 @@
+Polymorphism is one of the OOPs features that allows us to perform a single action in different ways
+-capability of a method to do different things based on the object that it is acting upon
+-important usage: occurs in OOPs, how a parent class refers to a child class object
+
+two ways:
+1. compile time polymorphism/static binding though overloading
+2. run time polymorphism/dynamic binding through overriding
+
+
+type casting in Java: assigning a value of one type to a variable as another type
+2 types:
+widening
+narrowing
